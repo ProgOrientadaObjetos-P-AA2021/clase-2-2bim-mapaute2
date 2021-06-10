@@ -14,7 +14,7 @@ public class Estudiante {
     protected int edadEstudiante;
     
     
-    public Estudiante(String n, String a, String iden, int ed){
+    public Estudiante(String n, String a, String iden, int ed){//constructor 4 argumentos
         nombresEstudiante = n;
         apellidosEstudiante = a;
         identificacionEstudiante = iden;
@@ -63,7 +63,7 @@ public class Estudiante {
     public int obtenerEdadEstudiante(){
         return edadEstudiante;
     }
-    
+    //metodo to String
     @Override
     public String toString(){
         String cadena = String.format("Nombre: %s\n"

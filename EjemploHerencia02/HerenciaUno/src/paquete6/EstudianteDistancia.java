@@ -54,10 +54,10 @@ public class EstudianteDistancia extends Estudiante{
                 + "Costo Asignatura: %.2f\n"
                 + "Número de Asignaturas: %d\n"
                 + "Total Matricula: %.2f\n",
-                nombresEstudiante,
-                apellidosEstudiante,
-                identificacionEstudiante,
-                edadEstudiante,
+                obtenerNombresEstudiante(), // llamar a los metodos
+                obtenerApellidoEstudiante(),
+                obtenerIdentificacionEstudiante(),
+                obtenerEdadEstudiante(),
                 obtenerCostoAsignatura(),
                 obtenerNumeroAsignaturas(),
                 obtenerMatriculaDistancia());

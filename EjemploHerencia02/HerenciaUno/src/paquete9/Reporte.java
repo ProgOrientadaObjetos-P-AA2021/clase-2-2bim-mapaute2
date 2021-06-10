@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author reroes
  */
-public class Reporte {
+public class Reporte {//super clase
 
     private String nombre;
     private String carrera;
@@ -46,5 +46,15 @@ public class Reporte {
     public String obtenerCiclo() {
         return ciclo;
     }
+    
+    //metodo to String
+    /*
+    @Override
+    public String toString(){
+        String cadena = String.format("Nombre: %s\nCarrera: %s\nCiclo: %s\n", 
+                obtenerNombre(),obtenerCarrera(),obtenerCiclo());
+        return cadena;
+    }
+    */
 
 }

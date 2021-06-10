@@ -25,7 +25,7 @@ public class EstudianteDistancia extends Estudiante{
     }
 
     // 4.  Método calcularMatriculaDistancia()
-    public void calcularMatriculaDistancia(){
+    public void calcularMatriculaDistancia(){ // Calcula el valor total de la matricula
         matriculaDistancia = numeroAsignaturas * costoAsignatura;
     }
 
@@ -46,7 +46,7 @@ public class EstudianteDistancia extends Estudiante{
     }
     
     public String toString(){
-        String cadenaFinal = String.format("%s", super.toString());
+        String cadenaFinal = String.format("%s", super.toString());//llamar el to String de super clase Estudinate
         cadenaFinal = String.format("%s\n"
                 + "Costo Asignatura: %.2f\n"
                 + "Número de Asignaturas: %d\n"

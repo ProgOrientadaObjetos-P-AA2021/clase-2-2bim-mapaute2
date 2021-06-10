@@ -2,6 +2,8 @@
 package paquete6;
 
 public class Estudiante {
+    
+   
 
     private String nombresEstudiante;
     private String apellidosEstudiante;

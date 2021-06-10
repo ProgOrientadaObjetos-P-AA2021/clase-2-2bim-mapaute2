@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author reroes
  */
-public class ReporteDistancia extends Reporte{
+public class ReporteDistancia extends Reporte{//clase hija o subclase
     
     private ArrayList<EstudianteDistancia> lista;
     private double totalMatriculaDistancia;
@@ -47,5 +47,14 @@ public class ReporteDistancia extends Reporte{
                 obtenerTotalMatriculasDistancia());
         return cadena;
     }
-    
+    //metodo to String para obtener datos de la clase Reporte
+    /*
+    public String toString(){
+        String cadena = String.format("%s", super.toString());
+        
+       cadena = String.format("%s\nEl total de matriculas es: %.2f\n", 
+                cadena,obtenerTotalMatriculasDistancia());
+        return cadena;
+    }
+    */
 }
